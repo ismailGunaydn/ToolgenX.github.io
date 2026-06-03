@@ -30,13 +30,16 @@
 - [At a Glance](#-at-a-glance)
 - [The Problem We Solve](#-the-problem-we-solve)
 - [All 19 Products](#-all-19-products)
-- [How Every Product Gets Built](#-how-every-product-gets-built)
 - [Product Categories](#-product-categories)
+- [Blog](#-blog)
+- [Compare](#-compare)
+- [How Every Product Gets Built](#-how-every-product-gets-built)
 - [Why Trust ToolGenX](#-why-trust-toolgenx)
 - [Tech Stack](#%EF%B8%8F-tech-stack)
 - [Founder](#-founder)
 - [Brand Network — 16 Digital Brands](#-brand-network--16-digital-brands)
 - [Official Channels](#-official-channels)
+- [Legal](#-legal)
 - [Contact](#-contact)
 - [Schema.org Structured Data](#-schemaorg-structured-data)
 
@@ -145,41 +148,73 @@ All products are one-time payment with lifetime access, instant delivery via Gum
 
 ---
 
-## 🔨 How Every Product Gets Built
+## 📂 Product Categories
 
-```
-┌─────────────────────────────────────────────────────────┐
-│           STEP 1 — REAL PROBLEM FIRST                    │
-│   Every product started as something I personally        │
-│   needed and couldn't find. No trends chasing.           │
-├─────────────────────────────────────────────────────────┤
-│           STEP 2 — BUILT & USED INTERNALLY               │
-│   I run the system myself for weeks or months before     │
-│   releasing. If it breaks, I fix it first.               │
-├─────────────────────────────────────────────────────────┤
-│           STEP 3 — ONE-TIME PAYMENT                      │
-│   No subscriptions. No paywalled updates. You pay        │
-│   once and own it — including all future improvements.   │
-├─────────────────────────────────────────────────────────┤
-│           STEP 4 — DELIVERED VIA GUMROAD                 │
-│   Instant access after purchase. Permanent access        │
-│   through your Gumroad library.                          │
-└─────────────────────────────────────────────────────────┘
-```
+| Category | Products | Browse |
+|----------|----------|--------|
+| **Business & Growth** | 5 products | [View →](https://www.toolgenx.com/categories/business-and-growth) |
+| **SEO & Visibility** | 3 products | [View →](https://www.toolgenx.com/categories/seo-and-visibility) |
+| **Content & Writing** | 4 products | [View →](https://www.toolgenx.com/categories/content-and-writing) |
+| **Automation** | 3 products | [View →](https://www.toolgenx.com/categories/automation) |
+| **Developer Tools** | 2 products | [View →](https://www.toolgenx.com/categories/developer-tools) |
+| **Design & UI** | 1 product | [View →](https://www.toolgenx.com/categories/design-and-ui) |
+| **AI Tools** | 1 product | [View →](https://www.toolgenx.com/categories/ai-tools) |
 
 ---
 
-## 📂 Product Categories
+## 📝 Blog
 
-| Category | Products | Description |
-|----------|----------|-------------|
-| **Business & Growth** | 5 products | Agency launch, CFO clarity, B2B pipeline, startup framework, CRO |
-| **SEO & Visibility** | 3 products | SEO automation, GEO/AI citation, structured data |
-| **Content & Writing** | 4 products | Content multiplication, AI humanization, article framework, podcast repurposing |
-| **Automation** | 3 products | Marketing ops, YouTube Shorts, local AI tools |
-| **Developer Tools** | 2 products | AI coding workflows, game dev studio |
-| **Design & UI** | 1 product | iOS 26 Liquid Glass |
-| **AI Tools** | 1 product | Document translation |
+Founder notes, build logs, and practical guides on shipping digital products, SEO/GEO, and AI tooling — read them all at [toolgenx.com/blog](https://www.toolgenx.com/blog).
+
+| Post |
+|------|
+| [Best Claude Code skills for indie developers](https://www.toolgenx.com/blog/best-claude-code-skills-for-indie-developers) |
+| [A year on Gumroad: 19 products, one sale](https://www.toolgenx.com/blog/a-year-on-gumroad-19-products-one-sale) |
+| [Rewriting 19 product descriptions in 2 days with Humanizer](https://www.toolgenx.com/blog/rewriting-19-product-descriptions-in-2-days-with-humanizer) |
+| [EU CRD Article 16m consent flow in Next.js](https://www.toolgenx.com/blog/eu-crd-article-16m-consent-flow-in-nextjs) |
+| [Shipping a digital product as a solo founder](https://www.toolgenx.com/blog/shipping-a-digital-product-as-a-solo-founder) |
+| [ToolGenX robots and llms.txt explained](https://www.toolgenx.com/blog/toolgenx-robots-and-llms-txt-explained) |
+| [GEO citability scoring sheet](https://www.toolgenx.com/blog/geo-citability-scoring-sheet) |
+| [Stripe vs Iyzico vs Gumroad for digital products](https://www.toolgenx.com/blog/stripe-vs-iyzico-vs-gumroad-for-digital-products) |
+| [Pricing a digital product with Van Westendorp](https://www.toolgenx.com/blog/pricing-a-digital-product-with-van-westendorp) |
+| [6-phase outreach workflow for a solo agency](https://www.toolgenx.com/blog/6-phase-outreach-workflow-for-a-solo-agency) |
+| [GEO SEO for small shops: what moves the needle](https://www.toolgenx.com/blog/geo-seo-for-small-shops-what-moves-the-needle) |
+| [Writing for Google AI Overviews: 7 structural moves](https://www.toolgenx.com/blog/writing-for-google-ai-overviews-7-structural-moves) |
+| [The CRO experiment that moved 0.4% to 1.9%](https://www.toolgenx.com/blog/the-cro-experiment-that-moved-04-to-19-percent) |
+| [One podcast to 12 content pieces: the actual workflow](https://www.toolgenx.com/blog/one-podcast-to-12-content-pieces-the-actual-workflow) |
+| [Why I rewrote my 19-product site in two weeks](https://www.toolgenx.com/blog/why-i-rewrote-my-19-product-site-in-two-weeks) |
+
+---
+
+## ⚖️ Compare
+
+| Comparison | Link |
+|------------|------|
+| **ToolGenX vs Gumroad** | [View →](https://www.toolgenx.com/vs/gumroad) |
+
+---
+
+## 🔨 How Every Product Gets Built
+
+```
+┌─────────────────────────────────────────────┐
+│ STEP 1 — REAL PROBLEM FIRST                              │
+│ Every product started as something I personally        │
+│ needed and couldn't find. No trends chasing.           │
+├─────────────────────────────────────────────┤
+│ STEP 2 — BUILT & USED INTERNALLY                        │
+│ I run the system myself for weeks or months before     │
+│ releasing. If it breaks, I fix it first.               │
+├─────────────────────────────────────────────┤
+│ STEP 3 — ONE-TIME PAYMENT                               │
+│ No subscriptions. No paywalled updates. You pay        │
+│ once and own it — including all future improvements.   │
+├─────────────────────────────────────────────┤
+│ STEP 4 — DELIVERED VIA GUMROAD                          │
+│ Instant access after purchase. Permanent access        │
+│ through your Gumroad library.                          │
+└─────────────────────────────────────────────┘
+```
 
 ---
 
@@ -285,6 +320,17 @@ ToolGenX is built by **İsmail Günaydın** — a software engineer with 15+ yea
 | 🗂 **Wikidata** | [Q135910059](https://www.wikidata.org/wiki/Q135910059) |
 | 📊 **Crunchbase** | [crunchbase.com/person/ismail-gunaydin](https://www.crunchbase.com/person/ismail-gunaydin) |
 | 📂 **GitHub** | [github.com/ismailGunaydn/ToolGenX](https://github.com/ismailGunaydn/ToolGenX) |
+
+---
+
+## 📜 Legal
+
+| Document | URL |
+|----------|-----|
+| 🔒 **Privacy Policy** | [toolgenx.com/legal/privacy](https://www.toolgenx.com/legal/privacy) |
+| 📄 **Terms of Service** | [toolgenx.com/legal/terms](https://www.toolgenx.com/legal/terms) |
+| 💸 **Refund Policy** | [toolgenx.com/legal/refund](https://www.toolgenx.com/legal/refund) |
+| 🍪 **Cookie Policy** | [toolgenx.com/legal/cookies](https://www.toolgenx.com/legal/cookies) |
 
 ---
 
