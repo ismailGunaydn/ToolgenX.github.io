@@ -4,7 +4,7 @@
 
 ### Digital Products & AI Toolkits for Creators, Founders & Developers
 
-**19 Products · 1,400+ Customers · One-Time Payment · Lifetime Access · 30-Day Guarantee**
+**19 Products · 1,400+ Customers · One-Time Payment · Instant Download · Lifetime v1 Updates**
 
 [![Website](https://img.shields.io/badge/Website-toolgenx.com-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.toolgenx.com)
 [![Gumroad Store](https://img.shields.io/badge/Gumroad-Buy_Products-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://modernwebseo.gumroad.com)
@@ -51,7 +51,7 @@
 
 Every product started as a problem that couldn't be solved with what existed. Built from scratch, tested in the real world, and sold only when it worked. No courses, no theory — just systems that produce results.
 
-All products are one-time payment with lifetime access, instant delivery via Gumroad, and a 30-day money-back guarantee.
+All products are one-time payment with instant download after Stripe or Iyzico checkout, lifetime v1 updates, and a full refund within 14 days if the product has not been downloaded (defective files: refund or replacement for 30 days).
 
 > **Mission:** Build the systems, toolkits, and frameworks that creators, founders, and developers actually need — and can't find anywhere else. One-time payment, no subscriptions, no fluff.
 
@@ -64,9 +64,9 @@ All products are one-time payment with lifetime access, instant delivery via Gum
 | **Total Products** | 19 |
 | **Customers** | 1,400+ |
 | **Payment Model** | One-time — no subscriptions |
-| **Delivery** | Instant via Gumroad |
-| **Access** | Lifetime + all future updates |
-| **Guarantee** | 30-day money-back |
+| **Delivery** | Instant download after Stripe or Iyzico checkout |
+| **Access** | Lifetime access + v1 updates |
+| **Refunds** | 14 days if not downloaded · 30 days for defective files |
 | **Support** | Founder-direct (no bots) |
 | **Price Range** | $9 – $119 |
 | **Categories** | AI Tools, Business, SEO, Dev Tools, Content, Automation, Design |
@@ -208,11 +208,11 @@ Founder notes, build logs, and practical guides on shipping digital products, SE
 ├─────────────────────────────────────────────┤
 │ STEP 3 — ONE-TIME PAYMENT                               │
 │ No subscriptions. No paywalled updates. You pay        │
-│ once and own it — including all future improvements.   │
+│ once and own it, with lifetime v1 updates.             │
 ├─────────────────────────────────────────────┤
-│ STEP 4 — DELIVERED VIA GUMROAD                          │
-│ Instant access after purchase. Permanent access        │
-│ through your Gumroad library.                          │
+│ STEP 4 — INSTANT DOWNLOAD                               │
+│ Download right after Stripe or Iyzico checkout,        │
+│ and again any time from your ToolGenX account.         │
 └─────────────────────────────────────────────┘
 ```
 
@@ -223,11 +223,11 @@ Founder notes, build logs, and practical guides on shipping digital products, SE
 | Signal | Detail |
 |--------|--------|
 | **1,400+ customers** | Real people who bought, used, and came back. Verified through Gumroad |
-| **30-day guarantee** | Full refund if it doesn't work as described — no questions asked |
+| **Clear refund policy** | Full refund within 14 days if not downloaded. Defective files get a refund or replacement for 30 days |
 | **Founder-supported** | İsmail answers support personally. No bots, no offshore help desk |
 | **Real-world tested** | Every product is used internally before going on sale |
-| **No subscriptions** | One-time payment. Lifetime access. All future updates included |
-| **Instant delivery** | Download link sent by email via Gumroad immediately after purchase |
+| **No subscriptions** | One-time payment. Lifetime access. v1 updates included |
+| **Instant delivery** | Download available right after Stripe or Iyzico checkout |
 
 ---
 
@@ -239,7 +239,7 @@ Founder notes, build logs, and practical guides on shipping digital products, SE
 - **Styling:** Tailwind CSS
 - **Deployment:** Vercel
 - **i18n:** Multi-language support (English primary)
-- **E-commerce:** Gumroad integration
+- **Payments:** Stripe + Iyzico (own checkout)
 
 ### Products Built With
 - **Claude Code** — Primary AI coding agent
