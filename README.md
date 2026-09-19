@@ -557,7 +557,7 @@ Yes. The fee calculators, AI crawler checker, llms.txt generator and AI writing 
 | Website | [www.agentskillpacks.com](https://www.agentskillpacks.com) (formerly toolgenx.com, moved 19 September 2026) |
 | Founder | [İsmail Günaydın](https://www.ismailgunaydin.com/), software engineer and SEO/GEO/AEO strategist |
 | Registered business | Melike Günaydın, sole proprietorship, registered 1 June 2026 (Alemdağ Tax Office, tax ID 1470465320) |
-| Address | Cemil Meriç Mah. Çığır Sk. No: 27-29, İç Kapı No: 7, Ümraniye, İstanbul, Türkiye |
+| Address | İstanbul, Türkiye |
 | Contact | support@toolgenx.com · +90 506 545 88 35 · [contact page](https://www.agentskillpacks.com/contact) |
 | Checkout | [Gumroad](https://modernwebseo.gumroad.com) (products), Amazon Kindle (books) |
 
