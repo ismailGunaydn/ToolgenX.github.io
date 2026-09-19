@@ -1,288 +1,574 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ToolGenX — Digital Products & AI Toolkits for Creators, Founders & Developers</title>
-<meta name="description" content="ToolGenX offers 19 premium digital products and AI toolkits for creators, founders and developers. One-time payment, instant download, 14-day refund if not downloaded. 1,400+ customers.">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="ToolGenX — Digital Products & AI Toolkits">
-<meta property="og:description" content="19 premium digital products & AI toolkits. One-time payment, instant download, 14-day refund if not downloaded. 1,400+ customers.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://www.toolgenx.com">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ToolGenX: Agent Skill Packs for Claude Code | agentskillpacks.com</title>
+<meta name="description" content="ToolGenX sells 19 Claude Code skill packs, templates and toolkits at agentskillpacks.com, from $9 to $119, one-time payment. Full catalog, 13 free seller tools, books and official links.">
 <link rel="canonical" href="https://ismailgunaydn.github.io/ToolgenX.github.io/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ToolGenX: Agent Skill Packs for Claude Code">
+<meta property="og:description" content="19 Claude Code skill packs, templates and toolkits. One-time payment, instant download.">
+<meta property="og:url" content="https://ismailgunaydn.github.io/ToolgenX.github.io/">
+<meta property="og:image" content="https://www.agentskillpacks.com/og?title=Agent+Skill+Packs+for+Claude+Code&amp;kicker=toolgenx">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#fef9f0">
 <style>
-:root{--ink:#1f2328;--muted:#57606a;--line:#d0d7de;--soft:#eaecef;--link:#0969da;--accent:#8b5cf6;--bg:#fff}
+:root{color-scheme:light;--bg:#fef9f0;--fg:#0a0a0a;--muted:#4a4a4a;--pink:#ff90e8;--pink-deep:#c93b9c;--gold:#ffc900;--gold-soft:#fff1a8;--card:#fff;--line:#0a0a0a}
 *{box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:920px;margin:2rem auto;padding:0 1.5rem;line-height:1.65;color:var(--ink);background:var(--bg)}
-header{border-bottom:1px solid var(--line);padding-bottom:1.5rem;margin-bottom:2rem}
-h1{margin:0 0 .25rem 0;font-size:2.2rem}
-.tagline{color:var(--muted);font-size:1.05rem;margin:.4rem 0 0}
-.badges{margin-top:1rem;display:flex;flex-wrap:wrap;gap:.5rem}
-.badge{display:inline-block;background:var(--accent);color:#fff;padding:.3rem .7rem;border-radius:6px;font-size:.85rem;font-weight:600}
-.badge.alt{background:#1e293b}
-h2{margin-top:2.5rem;font-size:1.45rem;border-bottom:1px solid var(--soft);padding-bottom:.35rem}
-h3{margin-top:1.6rem;font-size:1.1rem;color:var(--ink)}
-a{color:var(--link);text-decoration:none}
-a:hover{text-decoration:underline}
-ul{padding-left:1.25rem}
-li{margin:.35rem 0}
-.lead{font-size:1.08rem}
-table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
-th,td{border:1px solid var(--line);padding:.55rem .7rem;text-align:left;vertical-align:top}
-th{background:#f6f8fa;font-weight:600}
-tr:nth-child(even) td{background:#fafbfc}
-.cta{display:inline-block;margin:1rem 0;background:var(--accent);color:#fff;padding:.6rem 1.1rem;border-radius:8px;font-weight:600}
-.cta:hover{text-decoration:none;opacity:.92}
-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--pink-deep);text-underline-offset:3px}
+a:hover{color:var(--fg)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.top{border-bottom:2px solid var(--line);padding:14px 0}
+.top .wrap{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand{font-weight:700;text-decoration:none;color:var(--fg)}
+.brand b{color:var(--pink-deep)}
+.top nav a{margin-left:14px;font-size:14px}
+.hero{padding:48px 0 28px}
+.kicker{color:var(--pink-deep);font-size:13px}
+h1{font-size:clamp(30px,6vw,52px);line-height:1.08;margin:.2em 0 .35em;letter-spacing:-.02em}
+h2{font-size:clamp(22px,3.4vw,30px);margin:56px 0 12px;letter-spacing:-.01em}
+h3{font-size:19px;margin:0 0 6px}
+.lead{font-size:clamp(17px,2.2vw,20px);max-width:760px}
+.btn{display:inline-block;padding:10px 18px;border:2px solid var(--line);background:var(--pink);color:#0a0a0a;font-weight:700;text-decoration:none;box-shadow:4px 4px 0 0 var(--line);transition:transform .1s,box-shadow .1s;margin:6px 10px 6px 0}
+.btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 0 var(--line);color:#0a0a0a}
+.btn.alt{background:var(--gold)}
+.card{background:var(--card);border:2px solid var(--line);box-shadow:4px 4px 0 0 var(--line);padding:18px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.stats{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:28px}
+.stat{border:2px solid var(--line);background:var(--gold-soft);color:#0a0a0a;padding:14px;box-shadow:2px 2px 0 0 var(--line)}
+.stat b{display:block;font-size:28px;line-height:1.1}
+.price{display:inline-block;background:var(--gold);color:#0a0a0a;border:2px solid var(--line);padding:0 8px;font-weight:700;font-size:14px;margin-bottom:8px}
+.tag{font-size:13px;color:var(--muted)}
+.card ul{padding-left:18px;margin:8px 0}
+.card li{margin:2px 0;font-size:15px}
+.answer{border-left:6px solid var(--pink);background:var(--card);padding:12px 16px;margin:0 0 18px;max-width:820px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:2px solid var(--line);font-size:15px}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--pink);color:#0a0a0a}
+.tablewrap{overflow-x:auto}
+.cols{columns:2 280px;column-gap:28px}
+.cols li{break-inside:avoid;margin:3px 0}
+details{border:2px solid var(--line);background:var(--card);padding:10px 14px;margin:10px 0}
+summary{font-weight:700;cursor:pointer}
+footer{border-top:2px solid var(--line);margin-top:64px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+@media (max-width:560px){.top nav{display:none}}
 </style>
-</head>
-<body>
-<header>
-<h1>⚡ ToolGenX</h1>
-<p class="tagline">Digital Products & AI Toolkits for Creators, Founders & Developers — 19 Products · 1,400+ Customers · One-Time Payment · Instant Download · Lifetime v1 Updates.</p>
-<div class="badges">
-<a class="badge" href="https://www.toolgenx.com">Website: toolgenx.com</a>
-<a class="badge" href="https://modernwebseo.gumroad.com">Gumroad Store</a>
-<a class="badge alt" href="https://www.toolgenx.com/products">Browse All 19 Products</a>
-<a class="badge alt" href="https://www.toolgenx.com/about">About the Founder</a>
-</div>
-</header>
-<main>
-<section>
-<h2>About ToolGenX</h2>
-<p class="lead"><a href="https://www.toolgenx.com">ToolGenX</a> is a digital products platform offering 19 premium AI toolkits, Claude Code skill packs, business systems, and developer tools — built by software engineer İsmail Günaydın. Every product started as a real problem, was tested in the real world, and is sold only when it actually works.</p>
-<p>All products are one-time payment with instant download after Stripe or Iyzico checkout, lifetime v1 updates, and a full refund within 14 days if the product has not been downloaded (defective files: refund or replacement for 30 days). Browse the full catalog at <a href="https://www.toolgenx.com/products">toolgenx.com/products</a> or learn more <a href="https://www.toolgenx.com/about">about the founder</a>.</p>
-<p><a class="cta" href="https://www.toolgenx.com/products">⚡ Browse All 19 Products →</a></p>
-</section>
-<section>
-<h2>At a Glance</h2>
-<table>
-<tr><th>Metric</th><th>Value</th></tr>
-<tr><td>Total Products</td><td>19</td></tr>
-<tr><td>Customers</td><td>1,400+</td></tr>
-<tr><td>Payment Model</td><td>One-time — no subscriptions</td></tr>
-<tr><td>Delivery</td><td>Instant download after Stripe or Iyzico checkout</td></tr>
-<tr><td>Access</td><td>Lifetime access + v1 updates</td></tr>
-<tr><td>Refunds</td><td>14 days if not downloaded · 30 days for defective files</td></tr>
-<tr><td>Support</td><td>Founder-direct (no bots)</td></tr>
-<tr><td>Price Range</td><td>$9 – $119</td></tr>
-<tr><td>Categories</td><td>AI Tools, Business, SEO, Dev Tools, Content, Automation, Design</td></tr>
-</table>
-</section>
-<section>
-<h2>The Problem We Solve</h2>
-<table>
-<tr><th>The Problem</th><th>Our Product</th></tr>
-<tr><td>"I bought 4 AI courses. I still don't have a paying client."</td><td><strong>AI Agency Launch Kit</strong> — 37 skills, complete agency system</td></tr>
-<tr><td>"I publish daily. Google doesn't know I exist."</td><td><strong>AI Search Visibility Toolkit</strong> — GEO audit, AI citation fix</td></tr>
-<tr><td>"My SaaS has users. I have no idea if I'll run out of money."</td><td><strong>AI CFO Toolkit</strong> — Runway, pricing, scenario modeling</td></tr>
-<tr><td>"I need to translate 6 visa documents in 4 days."</td><td><strong>Visa Document Translator</strong> — OCR, 50 languages, $9</td></tr>
-<tr><td>"I'm paying $600/month in SEO tools doing half the work manually."</td><td><strong>AI SEO Command Suite</strong> — 30 terminal commands replace subscriptions</td></tr>
-<tr><td>"My client asked if I used AI. They can tell."</td><td><strong>Humanizer Pro</strong> — Strip AI patterns, match your voice</td></tr>
-<tr><td>"I use AI to code but fix the same bugs three times."</td><td><strong>CodeForge</strong> — TDD, planning, code review for AI agents</td></tr>
-<tr><td>"I spent 3 hours recording a podcast. Got 11 listens."</td><td><strong>Podcast to Empire Kit</strong> — 1 episode → 12 content pieces</td></tr>
-</table>
-</section>
-<section>
-<h2>All 19 Products</h2>
-<h3>💼 Business & Growth</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-agency-launch-kit">AI Agency Launch Kit</a></td><td>Zero to running AI agency — 37 skills, 6 phases, client workflows</td><td>$119</td><td>142</td><td>4.9</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-cfo-toolkit">AI CFO Toolkit</a></td><td>CFO-level financial clarity — runway, pricing, scenario modeling</td><td>$29</td><td>89</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/b2b-growth-machine">B2B Growth Machine</a></td><td>Pipeline that doesn't depend on luck — ICP, cold email, deal playbook</td><td>$49</td><td>74</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/startup-launch-arsenal">Startup Launch Arsenal</a></td><td>Investor pitch, pricing strategy, 5-phase launch framework</td><td>$39</td><td>—</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/conversion-rate-domination">Conversion Rate Domination</a></td><td>Fix every funnel leak — landing pages, forms, popups, A/B testing</td><td>$29</td><td>—</td><td>4.8</td></tr>
-</table>
-<h3>🔍 SEO & Visibility</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-seo-command-suite">AI SEO Command Suite</a></td><td>Replace $600/mo in SEO tools — 30+ terminal commands</td><td>$69</td><td>203</td><td>4.9</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-search-visibility-toolkit">AI Search Visibility Toolkit</a></td><td>Get cited by ChatGPT, Perplexity — GEO audit, AI citation fix</td><td>$49</td><td>118</td><td>4.9</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/structured-data-pro-pack">Structured Data Pro Pack</a></td><td>Rich results + AI citations — 6 JSON-LD templates + 2 skills</td><td>$19</td><td>—</td><td>4.8</td></tr>
-</table>
-<h3>✍️ Content & Writing</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-content-empire-builder">AI Content Empire Builder</a></td><td>1 post → 20+ pieces across every channel — 8 skills</td><td>$29</td><td>97</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ai-content-blueprint">AI Content Blueprint</a></td><td>14-section article framework + 6 Quick Answer Box templates</td><td>$29</td><td>—</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/humanizer-pro">Humanizer Pro</a></td><td>Strip AI patterns, match your voice — 50 banned phrases removed</td><td>$19</td><td>178</td><td>4.9</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/podcast-to-empire-kit">Podcast to Empire Kit</a></td><td>1 episode → 12 content pieces across 6 platforms in 20 min</td><td>$29</td><td>67</td><td>4.8</td></tr>
-</table>
-<h3>🤖 Automation</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/marketflow-ai">MarketFlow AI</a></td><td>Connect your 12-tool stack — 42 Python scripts, lead scoring to revenue</td><td>$29</td><td>121</td><td>4.9</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/shortfactory-ai">ShortFactory AI</a></td><td>Automated YouTube Shorts — script to upload at $0.11/video</td><td>$29</td><td>93</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/autoearnaai">AutoEarnAI</a></td><td>4 local-AI tools — YouTube, Twitter bot, affiliate, outreach. Zero fees</td><td>$27</td><td>81</td><td>4.7</td></tr>
-</table>
-<h3>💻 Developer Tools</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/codeforge">CodeForge</a></td><td>TDD, planning, code review for AI coding agents — 14 skill modules</td><td>$19</td><td>156</td><td>4.8</td></tr>
-<tr><td><a href="https://www.toolgenx.com/products/indie-game-studio-kit">Indie Game Studio Kit</a></td><td>Full game dev studio — 27 AI agents for Godot, Unity, Unreal</td><td>$39</td><td>31</td><td>4.8</td></tr>
-</table>
-<h3>🎨 Design & UI</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/ios-liquid-glass-ui-kit">iOS Liquid Glass UI Kit</a></td><td>iOS 26 glass UI — 67 styles for SwiftUI, UIKit, web CSS</td><td>$29</td><td>44</td><td>4.7</td></tr>
-</table>
-<h3>🌐 AI Tools</h3>
-<table>
-<tr><th>Product</th><th>What It Solves</th><th>Price</th><th>Customers</th><th>Rating</th></tr>
-<tr><td><a href="https://www.toolgenx.com/products/visa-document-translator">Visa Document Translator</a></td><td>OCR translation — 50 languages, bilingual output, $9</td><td>$9</td><td>134</td><td>4.9</td></tr>
-</table>
-<p><a class="cta" href="https://www.toolgenx.com/products">Browse All Products →</a></p>
-</section>
-<section>
-<h2>Product Categories</h2>
-<table>
-<tr><th>Category</th><th>Products</th><th>Browse</th></tr>
-<tr><td>Business & Growth</td><td>5 products</td><td><a href="https://www.toolgenx.com/categories/business-and-growth">View →</a></td></tr>
-<tr><td>SEO & Visibility</td><td>3 products</td><td><a href="https://www.toolgenx.com/categories/seo-and-visibility">View →</a></td></tr>
-<tr><td>Content & Writing</td><td>4 products</td><td><a href="https://www.toolgenx.com/categories/content-and-writing">View →</a></td></tr>
-<tr><td>Automation</td><td>3 products</td><td><a href="https://www.toolgenx.com/categories/automation">View →</a></td></tr>
-<tr><td>Developer Tools</td><td>2 products</td><td><a href="https://www.toolgenx.com/categories/developer-tools">View →</a></td></tr>
-<tr><td>Design & UI</td><td>1 product</td><td><a href="https://www.toolgenx.com/categories/design-and-ui">View →</a></td></tr>
-<tr><td>AI Tools</td><td>1 product</td><td><a href="https://www.toolgenx.com/categories/ai-tools">View →</a></td></tr>
-</table>
-</section>
-<section>
-<h2>Blog</h2>
-<p>Founder notes, build logs, and practical guides on shipping digital products, SEO/GEO, and AI tooling — read them all at <a href="https://www.toolgenx.com/blog">toolgenx.com/blog</a>.</p>
-<ul>
-<li><a href="https://www.toolgenx.com/blog/best-claude-code-skills-for-indie-developers">Best Claude Code skills for indie developers</a></li>
-<li><a href="https://www.toolgenx.com/blog/a-year-on-gumroad-19-products-one-sale">A year on Gumroad: 19 products, one sale</a></li>
-<li><a href="https://www.toolgenx.com/blog/rewriting-19-product-descriptions-in-2-days-with-humanizer">Rewriting 19 product descriptions in 2 days with Humanizer</a></li>
-<li><a href="https://www.toolgenx.com/blog/eu-crd-article-16m-consent-flow-in-nextjs">EU CRD Article 16m consent flow in Next.js</a></li>
-<li><a href="https://www.toolgenx.com/blog/shipping-a-digital-product-as-a-solo-founder">Shipping a digital product as a solo founder</a></li>
-<li><a href="https://www.toolgenx.com/blog/toolgenx-robots-and-llms-txt-explained">ToolGenX robots and llms.txt explained</a></li>
-<li><a href="https://www.toolgenx.com/blog/geo-citability-scoring-sheet">GEO citability scoring sheet</a></li>
-<li><a href="https://www.toolgenx.com/blog/stripe-vs-iyzico-vs-gumroad-for-digital-products">Stripe vs Iyzico vs Gumroad for digital products</a></li>
-<li><a href="https://www.toolgenx.com/blog/pricing-a-digital-product-with-van-westendorp">Pricing a digital product with Van Westendorp</a></li>
-<li><a href="https://www.toolgenx.com/blog/6-phase-outreach-workflow-for-a-solo-agency">6-phase outreach workflow for a solo agency</a></li>
-<li><a href="https://www.toolgenx.com/blog/geo-seo-for-small-shops-what-moves-the-needle">GEO SEO for small shops: what moves the needle</a></li>
-<li><a href="https://www.toolgenx.com/blog/writing-for-google-ai-overviews-7-structural-moves">Writing for Google AI Overviews: 7 structural moves</a></li>
-<li><a href="https://www.toolgenx.com/blog/the-cro-experiment-that-moved-04-to-19-percent">The CRO experiment that moved 0.4% to 1.9%</a></li>
-<li><a href="https://www.toolgenx.com/blog/one-podcast-to-12-content-pieces-the-actual-workflow">One podcast to 12 content pieces: the actual workflow</a></li>
-<li><a href="https://www.toolgenx.com/blog/why-i-rewrote-my-19-product-site-in-two-weeks">Why I rewrote my 19-product site in two weeks</a></li>
-</ul>
-</section>
-<section>
-<h2>Compare</h2>
-<ul>
-<li><a href="https://www.toolgenx.com/vs/gumroad">ToolGenX vs Gumroad</a> — how ToolGenX compares for buying digital products.</li>
-</ul>
-</section>
-<section>
-<h2>Why Trust ToolGenX</h2>
-<table>
-<tr><th>Signal</th><th>Detail</th></tr>
-<tr><td>1,400+ customers</td><td>Real people who bought, used, and came back. Verified through Gumroad</td></tr>
-<tr><td>Clear refund policy</td><td>Full refund within 14 days if not downloaded. Defective files get a refund or replacement for 30 days</td></tr>
-<tr><td>Founder-supported</td><td>İsmail answers support personally. No bots, no offshore help desk</td></tr>
-<tr><td>Real-world tested</td><td>Every product is used internally before going on sale</td></tr>
-<tr><td>No subscriptions</td><td>One-time payment. Lifetime access. v1 updates included</td></tr>
-<tr><td>Instant delivery</td><td>Download available right after Stripe or Iyzico checkout</td></tr>
-</table>
-</section>
-<section>
-<h2>Founder — İsmail Günaydın</h2>
-<p>Software engineer and digital entrepreneur with 15+ years of experience across full-stack development, AI tooling, and digital marketing. Every product on ToolGenX started as a problem he needed to solve and couldn't find a good solution for.</p>
-<table>
-<tr><th>Platform</th><th>Link</th></tr>
-<tr><td>Personal Website</td><td><a href="https://www.ismailgunaydin.com">ismailgunaydin.com</a></td></tr>
-<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/ismailgunaydin/">linkedin.com/in/ismailgunaydin</a></td></tr>
-<tr><td>X / Twitter</td><td><a href="https://x.com/ismailgunaydinn">x.com/ismailgunaydinn</a></td></tr>
-<tr><td>GitHub</td><td><a href="https://github.com/ismailGunaydn">github.com/ismailGunaydn</a></td></tr>
-<tr><td>Medium</td><td><a href="https://medium.com/@ismailgnydn28">medium.com/@ismailgnydn28</a></td></tr>
-<tr><td>Wikidata (person)</td><td><a href="https://www.wikidata.org/wiki/Q138653257">Q138653257</a></td></tr>
-<tr><td>ModernWebSEO</td><td><a href="https://www.modernwebseo.com">modernwebseo.com</a></td></tr>
-</table>
-</section>
-<section>
-<h2>Official channels</h2>
-<ul>
-<li>Website: <a href="https://www.toolgenx.com/">toolgenx.com</a></li>
-<li>Gumroad store: <a href="https://modernwebseo.gumroad.com">modernwebseo.gumroad.com</a></li>
-<li>Wikidata (organization): <a href="https://www.wikidata.org/wiki/Q135910059">Q135910059</a></li>
-<li>Crunchbase profile: <a href="https://www.crunchbase.com/person/ismail-gunaydin">crunchbase.com/person/ismail-gunaydin</a></li>
-<li>Contact page: <a href="https://www.toolgenx.com/contact">toolgenx.com/contact</a></li>
-</ul>
-</section>
-<section>
-<h2>Legal</h2>
-<ul>
-<li><a href="https://www.toolgenx.com/legal/privacy">Privacy Policy</a></li>
-<li><a href="https://www.toolgenx.com/legal/terms">Terms of Service</a></li>
-<li><a href="https://www.toolgenx.com/legal/refund">Refund Policy</a></li>
-<li><a href="https://www.toolgenx.com/legal/cookies">Cookie Policy</a></li>
-</ul>
-</section>
-<section>
-<h2>Contact</h2>
-<p>Questions? Support? Refunds? Reach the founder directly — no bots, no offshore help desk.</p>
-<ul>
-<li>Contact page: <a href="https://www.toolgenx.com/contact">toolgenx.com/contact</a></li>
-<li>Email: ismailgnydn28@gmail.com</li>
-</ul>
-</section>
-<section>
-<h2>Brand network</h2>
-<ul>
-<li><a href="https://www.toolgenx.com">ToolGenX</a> — Digital products & AI toolkits.</li>
-<li><a href="https://www.healthcalcpro.com">HealthCalcPro</a> — Free clinician-reviewed health calculators.</li>
-<li><a href="https://www.textwordcount.com">TextWordCount</a> — Word counter & text analysis with AI.</li>
-<li><a href="https://www.hepsihesapla.com">Hepsi Hesapla</a> — 200+ Turkish calculator tools.</li>
-<li><a href="https://www.unitconvertnow.com">Unit Convert Now</a> — Instant unit conversions.</li>
-<li><a href="https://www.pixnpdf.com">Pix n PDF</a> — Image & PDF conversion.</li>
-<li><a href="https://www.wheelienames.com">Wheelie Names</a> — Random name picker wheel.</li>
-<li><a href="https://www.modernwebseo.com">ModernWebSEO</a> — AI-Ready web design, SEO, AEO & GEO.</li>
-<li><a href="https://www.a1organizasyon.com">A1 Organizasyon</a> — LED lighting & event decoration.</li>
-</ul>
-</section>
-</main>
-<footer>
-<p>© 2026 ToolGenX — Built by İsmail Günaydın. This page is published via GitHub Pages from the <a href="https://github.com/ismailGunaydn/ToolgenX.github.io">ToolgenX.github.io repository</a>.</p>
-</footer>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "ToolGenX",
-  "url": "https://www.toolgenx.com",
-  "logo": "https://www.toolgenx.com/logo.png",
-  "description": "Digital products & AI toolkits for creators, founders & developers. 19 premium products. One-time payment, lifetime access.",
-  "foundingDate": "2025",
-  "founder": {
-    "@type": "Person",
-    "name": "İsmail Günaydın",
-    "url": "https://www.ismailgunaydin.com",
-    "jobTitle": "Founder",
-    "sameAs": [
-      "https://www.linkedin.com/in/ismailgunaydin/",
-      "https://x.com/ismailgunaydinn",
-      "https://github.com/ismailGunaydn",
-      "https://medium.com/@ismailgnydn28",
-      "https://www.wikidata.org/wiki/Q138653257",
-      "https://www.modernwebseo.com",
-      "https://www.crunchbase.com/person/ismail-gunaydin"
-    ]
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "email": "ismailgnydn28@gmail.com",
-    "url": "https://www.toolgenx.com/contact"
-  },
-  "sameAs": [
-    "https://modernwebseo.gumroad.com",
-    "https://www.wikidata.org/wiki/Q135910059",
-    "https://www.crunchbase.com/person/ismail-gunaydin",
-    "https://github.com/ismailGunaydn/ToolGenX"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.agentskillpacks.com/#organization",
+      "name": "ToolGenX",
+      "url": "https://www.agentskillpacks.com",
+      "legalName": "Melike Günaydın",
+      "email": "support@toolgenx.com",
+      "telephone": "+905065458835",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cemil Meriç Mah. Çığır Sk. No: 27-29, İç Kapı No: 7",
+        "addressLocality": "Ümraniye",
+        "addressRegion": "İstanbul",
+        "addressCountry": "TR"
+      },
+      "founder": {
+        "@id": "https://www.ismailgunaydin.com/#person"
+      },
+      "sameAs": [
+        "https://www.producthunt.com/products/toolgenx",
+        "https://www.crunchbase.com/organization/toolgenx",
+        "https://www.linkedin.com/company/toolgenx",
+        "https://www.youtube.com/@ToolGenX",
+        "https://www.facebook.com/toolgenx/",
+        "https://maps.app.goo.gl/wfzDcN2xR5jHLm4KA",
+        "https://ismailgunaydn.github.io/ToolgenX.github.io/",
+        "https://www.tumblr.com/toolgenx",
+        "https://modernwebseo.gumroad.com",
+        "https://sites.google.com/view/toolgenx-pages/ana-sayfa",
+        "https://ismailgunaydn.github.io/ToolgenX.github.io/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.ismailgunaydin.com/#person",
+      "name": "İsmail Günaydın",
+      "url": "https://www.ismailgunaydin.com/",
+      "jobTitle": "Software Engineer · SEO/GEO/AEO Strategist",
+      "worksFor": {
+        "@id": "https://www.agentskillpacks.com/#organization"
+      },
+      "sameAs": [
+        "https://www.ismailgunaydin.com/",
+        "https://www.linkedin.com/in/ismailgunaydin",
+        "https://x.com/ismailgunaydinn",
+        "https://www.youtube.com/@ismailgunaydinn",
+        "https://www.instagram.com/ismailgunaydin_",
+        "https://github.com/ismailGunaydn",
+        "https://medium.com/@ismailgunaydin",
+        "https://dev.to/ismailgunaydin",
+        "https://substack.com/@ismailgunaydin",
+        "https://open.spotify.com/show/62QuNrUzWJtmyMi7Pgdl3l",
+        "https://www.amazon.com/author/ismailgunaydin",
+        "https://www.crunchbase.com/person/ismail-gunaydin",
+        "https://www.producthunt.com/@ismailgunaydin",
+        "https://www.blogger.com/profile/17386816838519613675"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ismailgunaydn.github.io/ToolgenX.github.io/#webpage",
+      "url": "https://ismailgunaydn.github.io/ToolgenX.github.io/",
+      "name": "ToolGenX: Agent Skill Packs for Claude Code",
+      "dateModified": "2026-09-19",
+      "about": {
+        "@id": "https://www.agentskillpacks.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.agentskillpacks.com/#organization"
+      },
+      "inLanguage": "en",
+      "isBasedOn": "https://www.agentskillpacks.com"
+    },
+    {
+      "@type": "ItemList",
+      "name": "ToolGenX catalog",
+      "numberOfItems": 19,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://www.agentskillpacks.com/products/ai-agency-launch-kit",
+          "name": "AI Agency Launch Kit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://www.agentskillpacks.com/products/ai-cfo-toolkit",
+          "name": "AI CFO Toolkit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://www.agentskillpacks.com/products/ai-content-blueprint",
+          "name": "AI Content Blueprint"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://www.agentskillpacks.com/products/ai-content-empire-builder",
+          "name": "AI Content Empire Builder"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://www.agentskillpacks.com/products/ai-seo-command-suite",
+          "name": "AI SEO Command Suite"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "url": "https://www.agentskillpacks.com/products/ai-search-visibility-toolkit",
+          "name": "AI Search Visibility Toolkit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "url": "https://www.agentskillpacks.com/products/autoearnaai",
+          "name": "AutoEarnaAI"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "url": "https://www.agentskillpacks.com/products/b2b-growth-machine",
+          "name": "B2B Growth Machine"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "url": "https://www.agentskillpacks.com/products/codeforge",
+          "name": "CodeForge"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "url": "https://www.agentskillpacks.com/products/conversion-rate-domination",
+          "name": "Conversion Rate Domination"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "url": "https://www.agentskillpacks.com/products/humanizer-pro",
+          "name": "Humanizer Pro"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "url": "https://www.agentskillpacks.com/products/indie-game-studio-kit",
+          "name": "Indie Game Studio Kit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "url": "https://www.agentskillpacks.com/products/marketflow-ai",
+          "name": "MarketFlow AI"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "url": "https://www.agentskillpacks.com/products/podcast-to-empire-kit",
+          "name": "Podcast to Empire Kit"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "url": "https://www.agentskillpacks.com/products/shortfactory-ai",
+          "name": "ShortFactory AI"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "url": "https://www.agentskillpacks.com/products/startup-launch-arsenal",
+          "name": "Startup Launch Arsenal"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "url": "https://www.agentskillpacks.com/products/structured-data-pro-pack",
+          "name": "Structured Data Pro Pack"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "url": "https://www.agentskillpacks.com/products/visa-document-translator",
+          "name": "Visa Document Translator"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "url": "https://www.agentskillpacks.com/products/ios-liquid-glass-ui-kit",
+          "name": "iOS Liquid Glass UI Kit"
+        }
+      ]
+    }
   ]
 }
 </script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand mono" href="https://www.agentskillpacks.com"><b>[</b>toolgenx<b>]</b></a>
+<nav><a href="#catalog">Catalog</a><a href="#tools">Free tools</a><a href="#books">Books</a><a href="#blog">Blog</a><a href="#links">Links</a><a href="https://www.agentskillpacks.com">agentskillpacks.com</a></nav>
+</div></header>
+<main class="wrap">
+<section class="hero">
+<div class="kicker mono">// official ToolGenX link hub · updated 2026-09-19</div>
+<h1>Agent Skill Packs for Claude Code</h1>
+<p class="lead">ToolGenX is an independent shop for Claude Code skill packs, templates and toolkits. The store lives at <a href="https://www.agentskillpacks.com">agentskillpacks.com</a>: 19 products for developers, founders and marketers, each a one-time payment with an instant download. This page is the brand's public index on GitHub, with every product, free tool, book and official profile in one place.</p>
+<a class="btn" href="https://www.agentskillpacks.com/products">Browse all 19 packs</a><a class="btn alt" href="https://www.agentskillpacks.com/tools">Free seller tools</a>
+<div class="stats">
+<div class="stat"><b>19</b>products</div>
+<div class="stat"><b>7</b>categories</div>
+<div class="stat"><b>$9-$119</b>one-time price</div>
+<div class="stat"><b>13</b>free tools</div>
+<div class="stat"><b>17</b>Kindle books</div>
+<div class="stat"><b>21</b>blog posts</div>
+</div>
+</section>
+
+<h2 id="what">What is a Claude Code skill pack?</h2>
+<p class="answer">A Claude Code skill pack is a set of folders, each with a SKILL.md file, that teach an AI coding agent repeatable jobs such as auditing a page, writing a cold email sequence or planning a feature. Claude loads a skill only when the task matches it. Since December 2025 the format is an open standard (agentskills.io), so Cursor, Codex, Gemini CLI and Copilot can read the same folders.</p>
+<div class="tablewrap"><table>
+<tr><th>Step</th><th>What to do</th></tr>
+<tr><td>1</td><td>Buy a pack on <a href="https://www.agentskillpacks.com/products">agentskillpacks.com</a> and unzip the download.</td></tr>
+<tr><td>2</td><td>Copy the skill folders into <code>~/.claude/skills/</code> (all projects) or <code>&lt;repo&gt;/.claude/skills/</code> (one project).</td></tr>
+<tr><td>3</td><td>Restart Claude Code and type <code>/</code> to list the new skills, or just describe the task.</td></tr>
+<tr><td>4</td><td>Edit the examples in each SKILL.md to match your stack, voice and clients.</td></tr>
+</table></div>
+
+<h2 id="catalog">The full catalog (19 products)</h2>
+<p class="answer">ToolGenX sells 19 digital products in 7 categories, priced from $9 (Visa Document Translator) to $119 (AI Agency Launch Kit). Most are Claude Code skill packs; the rest are Python automation scripts, UI kits and writing frameworks. Every item links to its product page on agentskillpacks.com.</p>
+
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/ai-tools">AI Tools</a></h3><div class="grid">
+<article class="card"><span class="price">$9</span>
+<h3><a href="https://www.agentskillpacks.com/products/visa-document-translator">Visa Document Translator</a></h3>
+<p class="tag">Get your documents translated into 50 languages, in minutes, not weeks.</p>
+<p>An OCR-powered document translator that reads visa documents, passports, birth certificates, and official papers and produces bilingual side-by-side translations with confidence flags.</p>
+<ul><li>OCR document scanning: upload a photo and get text extracted</li><li>Bilingual side-by-side output format for easy review</li><li>Confidence flags that mark uncertain translations for human review</li><li>50 languages supported for visa documents, birth certificates, passports</li><li>A fraction of the cost of a certified human translator</li></ul>
+<p class="tag"><b>For:</b> Immigrants, expats, travelers, and international workers who need documents translated fast</p>
+<p><a href="https://www.agentskillpacks.com/products/visa-document-translator">View Visa Document Translator →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/automation">Automation</a></h3><div class="grid">
+<article class="card"><span class="price">$27</span>
+<h3><a href="https://www.agentskillpacks.com/products/autoearnaai">AutoEarnaAI</a></h3>
+<p class="tag">Four AI automation tools that run on your computer, no cloud fees, no monthly bill.</p>
+<p>A local AI toolkit with four automation tools: YouTube Shorts creator, Twitter/X content bot, Amazon affiliate finder, and local business outreach engine. Powered by Ollama, zero API cost.</p>
+<ul><li>YouTube Shorts automation: script, voiceover, captions, upload</li><li>Twitter/X content bot that posts while you sleep</li><li>Amazon affiliate product finder that auto-generates review content</li><li>Local business outreach engine: find leads, send cold emails</li><li>Runs on Ollama locally, one-time payment, zero ongoing API costs</li></ul>
+<p class="tag"><b>For:</b> Side hustlers, affiliate marketers, and online income seekers who want automation without subscriptions</p>
+<p><a href="https://www.agentskillpacks.com/products/autoearnaai">View AutoEarnaAI →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/marketflow-ai">MarketFlow AI</a></h3>
+<p class="tag">11 marketing systems and 42 Python scripts that actually connect your tools.</p>
+<p>A marketing automation stack with 42 Python scripts that tie together HubSpot, Apollo, Gong, and Ahrefs covering A/B testing, content ops, lead scoring, cold email, and revenue intelligence.</p>
+<ul><li>42 Python automation scripts covering the full marketing stack</li><li>Native integrations: HubSpot, Apollo, Gong, and Ahrefs</li><li>Lead scoring automation: know who to call and when</li><li>A/B testing engine, cold email sequencer, and SEO ops tools</li><li>Revenue intelligence dashboard tying content to closed deals</li></ul>
+<p class="tag"><b>For:</b> Marketing teams and growth leads at B2B companies using HubSpot and Apollo</p>
+<p><a href="https://www.agentskillpacks.com/products/marketflow-ai">View MarketFlow AI →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/shortfactory-ai">ShortFactory AI</a></h3>
+<p class="tag">Make YouTube Shorts for $0.11 each, fully automated, start to finish.</p>
+<p>A Python pipeline that creates YouTube Shorts automatically: AI script writing with Gemini, visuals, ElevenLabs voiceover, auto-captions, and direct upload, at 11 cents a video.</p>
+<ul><li>Full pipeline: script → visuals → voiceover → captions → upload</li><li>Gemini AI for script writing, ElevenLabs for professional voice</li><li>Auto-captions that sync with the audio</li><li>Direct YouTube upload, zero manual steps</li><li>Cost breakdown: $0.11 per video in API fees</li></ul>
+<p class="tag"><b>For:</b> Content creators and faceless channel operators who want to post daily without the grind</p>
+<p><a href="https://www.agentskillpacks.com/products/shortfactory-ai">View ShortFactory AI →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/business-and-growth">Business &amp; Growth</a></h3><div class="grid">
+<article class="card"><span class="price">$119</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-agency-launch-kit">AI Agency Launch Kit</a></h3>
+<p class="tag">Build a running AI agency with a real system, not guesswork.</p>
+<p>A 37-skill system that walks through every stage of starting an AI agency, finding clients, delivering work, and getting paid on retainer.</p>
+<ul><li>37 Claude Code skills covering the full agency workflow</li><li>6-phase system: prospect, pitch, deliver, retain, upsell, scale</li><li>Done-for-you cold email, proposal, and onboarding templates</li><li>GEO/SEO service packages priced and ready to sell</li><li>Lead research and outreach automation included</li></ul>
+<p class="tag"><b>For:</b> Freelancers and consultants building an AI-powered agency</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-agency-launch-kit">View AI Agency Launch Kit →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-cfo-toolkit">AI CFO Toolkit</a></h3>
+<p class="tag">Make money decisions like a CFO, even if you have never had one.</p>
+<p>A financial intelligence toolkit that gives founders real visibility into runway, unit economics, pricing strategy, and scenario modeling.</p>
+<ul><li>Runway calculator and cash burn tracker</li><li>Unit economics breakdown (CAC, LTV, payback period)</li><li>Van Westendorp pricing framework</li><li>Scenario modeler with conservative, base, and optimistic projections</li><li>CFO-style briefing doc for investors</li></ul>
+<p class="tag"><b>For:</b> Founders and operators who need financial clarity without hiring a CFO</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-cfo-toolkit">View AI CFO Toolkit →</a></p></article>
+<article class="card"><span class="price">$49</span>
+<h3><a href="https://www.agentskillpacks.com/products/b2b-growth-machine">B2B Growth Machine</a></h3>
+<p class="tag">Seven systems that fill your pipeline, close deals faster, and track revenue properly.</p>
+<p>A B2B growth stack with 7 interconnected systems: outbound engine, ICP builder, cold email sequences, content-to-pipeline attribution, deal scaling playbook, and revenue intelligence.</p>
+<ul><li>ICP builder, define who you should actually be targeting</li><li>Cold email sequences that get replies, not spam-folder deliveries</li><li>Prospect research automation to find the right people fast</li><li>Deal scaling playbook from $1K to $100K contracts</li><li>Revenue intelligence dashboard for tracking what works</li></ul>
+<p class="tag"><b>For:</b> B2B founders, sales teams, and growth leads who need a repeatable pipeline system</p>
+<p><a href="https://www.agentskillpacks.com/products/b2b-growth-machine">View B2B Growth Machine →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/conversion-rate-domination">Conversion Rate Domination</a></h3>
+<p class="tag">Getting traffic but nobody buys? Fix the funnel, one conversion at a time.</p>
+<p>An 8-skill CRO suite that audits landing pages, optimizes forms and popups, sets up A/B tests, and applies marketing psychology to turn visitors into buyers.</p>
+<ul><li>8 CRO skills covering landing pages, forms, popups, and onboarding</li><li>Landing page audit tool that finds where people drop off</li><li>A/B test setup for any element, no developer needed</li><li>Marketing psychology principles baked into every optimization</li><li>Funnel analysis from first click to checkout</li></ul>
+<p class="tag"><b>For:</b> E-commerce owners, SaaS founders, and marketers with traffic but weak conversion rates</p>
+<p><a href="https://www.agentskillpacks.com/products/conversion-rate-domination">View Conversion Rate Domination →</a></p></article>
+<article class="card"><span class="price">$39</span>
+<h3><a href="https://www.agentskillpacks.com/products/startup-launch-arsenal">Startup Launch Arsenal</a></h3>
+<p class="tag">Go from idea to funded with 10 founder skills covering pitch, pricing, and launch.</p>
+<p>A 10-skill founder toolkit that covers pre-launch and fundraising: investor pitch decks, pricing strategy using Van Westendorp, and the ORB launch framework.</p>
+<ul><li>10 founder skills covering pitch, pricing, and launch strategy</li><li>Investor pitch deck structure with VC-approved slide order</li><li>Van Westendorp pricing: find the exact price your customers will pay</li><li>ORB launch framework: owned, rented, borrowed channels</li><li>From napkin idea to investor-ready in one structured system</li></ul>
+<p class="tag"><b>For:</b> Early-stage founders who need to pitch investors, price their product, and execute a launch</p>
+<p><a href="https://www.agentskillpacks.com/products/startup-launch-arsenal">View Startup Launch Arsenal →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/content-and-writing">Content &amp; Writing</a></h3><div class="grid">
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-content-blueprint">AI Content Blueprint</a></h3>
+<p class="tag">Write articles that rank on Google AND get cited by ChatGPT.</p>
+<p>A 14-section article framework built for AI search. Covers structure, quick-answer boxes, FAQ schema, and how to write content that gets pulled into AI answers.</p>
+<ul><li>14-section article framework for Google and AI search</li><li>Quick answer box formula that gets picked up by ChatGPT and Perplexity</li><li>FAQ schema setup that triggers rich results</li><li>Blog writer skill for Claude Code, fully automated</li><li>Step-by-step guide to writing content AI engines actually cite</li></ul>
+<p class="tag"><b>For:</b> Bloggers, content marketers, and SEO writers who want both Google and AI search traffic</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-content-blueprint">View AI Content Blueprint →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-content-empire-builder">AI Content Empire Builder</a></h3>
+<p class="tag">One post becomes 20 pieces of content. Stop creating from scratch every time.</p>
+<p>An 8-skill content multiplication system that turns one piece of content into social posts, threads, newsletters, and more, without writing everything separately.</p>
+<ul><li>8 production-ready skills for content creation and repurposing</li><li>Content calendar system: one piece becomes a week of posts</li><li>AI humanizer that removes robotic tone from AI writing</li><li>Twitter/X algorithm optimizer for more reach with less effort</li><li>Works with Claude Code, no extra subscriptions needed</li></ul>
+<p class="tag"><b>For:</b> Content creators and solo founders who need to show up consistently but are running out of time</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-content-empire-builder">View AI Content Empire Builder →</a></p></article>
+<article class="card"><span class="price">$19</span>
+<h3><a href="https://www.agentskillpacks.com/products/humanizer-pro">Humanizer Pro</a></h3>
+<p class="tag">AI wrote it. Now nobody can tell. Make content sound like a real person wrote it.</p>
+<p>A 3-skill content humanization system that strips AI writing patterns, removes banned phrases, matches your voice, and passes AI detection tools without making the content worse.</p>
+<ul><li>50 banned AI phrases that trigger detection tools, all removed</li><li>Voice matching so output sounds like you, not a chatbot</li><li>Before/after comparison mode so you see exactly what changed</li><li>Works on blog posts, emails, LinkedIn, sales copy, and more</li><li>3 skills: humanizer, copy editor, and copywriter in one pack</li></ul>
+<p class="tag"><b>For:</b> Writers, agency owners, and content marketers who use AI and need it to pass as human-written</p>
+<p><a href="https://www.agentskillpacks.com/products/humanizer-pro">View Humanizer Pro →</a></p></article>
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/podcast-to-empire-kit">Podcast to Empire Kit</a></h3>
+<p class="tag">Record once. Show up on six platforms. Stop leaving reach on the table.</p>
+<p>A 5-skill content multiplication system that turns one podcast episode into 12 content pieces, Twitter threads, LinkedIn posts, newsletters, blog posts, and short clips, automatically.</p>
+<ul><li>One episode becomes 12 content pieces across 6 platforms</li><li>Weekly content calendar fully mapped from one recording</li><li>Guest workflow with co-promotion and cross-distribution</li><li>Twitter threads, LinkedIn posts, newsletter, blog post, auto-generated</li><li>5 skills covering every part of podcast content operations</li></ul>
+<p class="tag"><b>For:</b> Podcasters who want more reach without recording more episodes</p>
+<p><a href="https://www.agentskillpacks.com/products/podcast-to-empire-kit">View Podcast to Empire Kit →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/design-and-ui">Design &amp; UI</a></h3><div class="grid">
+<article class="card"><span class="price">$29</span>
+<h3><a href="https://www.agentskillpacks.com/products/ios-liquid-glass-ui-kit">iOS Liquid Glass UI Kit</a></h3>
+<p class="tag">iOS 26 dropped. Your app looks outdated. Fix it this weekend with 67 ready styles.</p>
+<p>A 5-skill design system with 67 Liquid Glass UI variants for iOS 26 covering SwiftUI, UIKit, and web adaptations with CSS backdrop filters. Build the new look without starting from scratch.</p>
+<ul><li>67 Liquid Glass UI style variants, ready to copy and use</li><li>SwiftUI and UIKit code for every variant</li><li>CSS backdrop filter web adaptation for cross-platform use</li><li>Design system generator: pick a style and get the full system</li><li>5 skills covering the full iOS 26 design language</li></ul>
+<p class="tag"><b>For:</b> iOS developers, web developers, and UI designers who need to adopt the new iOS 26 design language</p>
+<p><a href="https://www.agentskillpacks.com/products/ios-liquid-glass-ui-kit">View iOS Liquid Glass UI Kit →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/developer-tools">Developer Tools</a></h3><div class="grid">
+<article class="card"><span class="price">$19</span>
+<h3><a href="https://www.agentskillpacks.com/products/codeforge">CodeForge</a></h3>
+<p class="tag">Stop asking AI to write code. Start letting it run your entire dev workflow.</p>
+<p>A 14-skill AI coding workflow system for Claude Code covering planning, TDD, code review, debugging, git worktrees, and multi-agent development across Cursor, Codex, and Gemini CLI.</p>
+<ul><li>14 dev workflow skills for Claude Code</li><li>TDD workflow: red-green-refactor with subagent support</li><li>Planning and brainstorming system before you write a single line</li><li>Git worktrees integration for parallel development branches</li><li>Works with Claude Code, Cursor, Codex, and Gemini CLI</li></ul>
+<p class="tag"><b>For:</b> Developers who use AI coding tools but feel they are not getting the most out of them</p>
+<p><a href="https://www.agentskillpacks.com/products/codeforge">View CodeForge →</a></p></article>
+<article class="card"><span class="price">$39</span>
+<h3><a href="https://www.agentskillpacks.com/products/indie-game-studio-kit">Indie Game Studio Kit</a></h3>
+<p class="tag">One developer. 27 AI agents. A game studio running on your machine.</p>
+<p>A 27-agent AI game development system that gives solo indie devs a full virtual studio covering design, programming, narrative, audio, QA, and release management for Godot, Unity, and Unreal.</p>
+<ul><li>27 specialist AI agents covering every game dev discipline</li><li>Godot, Unity, and Unreal Engine specialist agents included</li><li>Narrative director, economy designer, and audio director agents</li><li>Multi-agent workflow, agents collaborate on the same project</li><li>Built for solo devs who want studio-quality output without a studio</li></ul>
+<p class="tag"><b>For:</b> Solo indie game developers who want to build bigger games without hiring a team</p>
+<p><a href="https://www.agentskillpacks.com/products/indie-game-studio-kit">View Indie Game Studio Kit →</a></p></article>
+</div>
+<h3 style="margin-top:28px"><a href="https://www.agentskillpacks.com/categories/seo-and-visibility">SEO &amp; Visibility</a></h3><div class="grid">
+<article class="card"><span class="price">$69</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-seo-command-suite">AI SEO Command Suite</a></h3>
+<p class="tag">30 SEO skills in one place. Run audits, find keywords, fix your site from the terminal.</p>
+<p>A 30-skill SEO command system for Claude Code covering keyword research, competitor analysis, content gaps, schema generation, and GEO optimization in one toolkit.</p>
+<ul><li>30 Claude Code skills covering the full SEO workflow</li><li>Keyword research, SERP analysis, and content gap finder</li><li>Competitor audit showing what they rank for that you do not</li><li>Schema markup templates for rich results and AI citation</li><li>GEO and traditional SEO combined into one command system</li></ul>
+<p class="tag"><b>For:</b> SEO professionals, agency owners, and developers who want to automate SEO work</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-seo-command-suite">View AI SEO Command Suite →</a></p></article>
+<article class="card"><span class="price">$49</span>
+<h3><a href="https://www.agentskillpacks.com/products/ai-search-visibility-toolkit">AI Search Visibility Toolkit</a></h3>
+<p class="tag">If ChatGPT and Perplexity do not mention you, you are invisible to half the internet.</p>
+<p>An 11-skill GEO (Generative Engine Optimization) system that audits, scores, and fixes your site so AI search engines find, trust, and cite your content.</p>
+<ul><li>Full GEO audit scoring your site across 11 AI visibility factors</li><li>llms.txt setup so AI crawlers can read your site</li><li>Client-ready PDF report generator for agencies</li><li>Citation audit, see where AI engines stand on your content</li><li>Works with ChatGPT, Perplexity, Google AI Overviews, and Gemini</li></ul>
+<p class="tag"><b>For:</b> SEO professionals, agency owners, and business owners who want AI search traffic</p>
+<p><a href="https://www.agentskillpacks.com/products/ai-search-visibility-toolkit">View AI Search Visibility Toolkit →</a></p></article>
+<article class="card"><span class="price">$19</span>
+<h3><a href="https://www.agentskillpacks.com/products/structured-data-pro-pack">Structured Data Pro Pack</a></h3>
+<p class="tag">Add the right schema markup. Show up in rich results and AI answers.</p>
+<p>A JSON-LD schema library and implementation system covering Article, Product, Organization, FAQ, and speakable schemas that trigger Google rich results and AI citations.</p>
+<ul><li>Ready-to-use JSON-LD templates for Article, Product, and Organization</li><li>FAQPage schema that fires the Google rich result snippet</li><li>Speakable schema for AI assistant and voice search citations</li><li>Schema validation workflow, catch errors before Google does</li><li>Works with any CMS, framework, or static site</li></ul>
+<p class="tag"><b>For:</b> SEO practitioners, developers, and site owners who want rich results without guessing at schema syntax</p>
+<p><a href="https://www.agentskillpacks.com/products/structured-data-pro-pack">View Structured Data Pro Pack →</a></p></article>
+</div>
+
+<h2 id="tools">Free tools for digital product sellers</h2>
+<p class="answer">ToolGenX runs 13 free browser tools for people who sell digital products: seven platform fee calculators (Gumroad, Stripe, PayPal, Lemon Squeezy, Payhip, Etsy, Ko-fi), a platform fee comparison, a pricing calculator, a refund policy generator, an AI crawler checker, an llms.txt generator and an AI writing checker. None of them asks for an email.</p>
+<div class="grid">
+<article class="card"><h3><a href="https://www.agentskillpacks.com/gumroad-fee-calculator">Gumroad Fee Calculator</a></h3><p>Itemizes Gumroad transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/stripe-fee-calculator">Stripe Fee Calculator</a></h3><p>Itemizes Stripe transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/paypal-fee-calculator">PayPal Fee Calculator</a></h3><p>Itemizes PayPal transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/lemon-squeezy-fee-calculator">Lemon Squeezy Fee Calculator</a></h3><p>Itemizes Lemon Squeezy transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/payhip-fee-calculator">Payhip Fee Calculator</a></h3><p>Itemizes Payhip transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/etsy-fee-calculator">Etsy (digital downloads) Fee Calculator</a></h3><p>Itemizes Etsy (digital downloads) transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/ko-fi-fee-calculator">Ko-fi Fee Calculator</a></h3><p>Itemizes Ko-fi transaction fees, card processing cuts, merchant-of-record costs, and net payouts.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/refund-policy-generator">Refund Policy Generator</a></h3><p>Writes a digital-products refund and withdrawal policy with EU CRD Art 16(m) dual-consent wording, the withdrawal button required by Directive (EU) 2023/2673 from 19 June 2026, and UK and Türkiye addenda. Runs in the browser.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/ai-crawler-checker">AI Crawler Checker</a></h3><p>Tests any domain&#x27;s robots.txt against 12 AI crawlers (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User, PerplexityBot, Perplexity-User, Google-Extended, CCBot, Bytespider, meta-externalagent, Applebot-Extended) and shows the rule that matched.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/llms-txt-generator">llms.txt Generator</a></h3><p>Builds an llms.txt file in the llmstxt.org format with live structural validation, fully client-side.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/ai-writing-checker">AI Writing Checker</a></h3><p>Flags 5 measurable AI writing tells with exact positions: em-dash density over 4 per 1,000 words, 26 stock phrases, rule-of-three padding, sentence-length variation under 35%, and missing first-person voice. A style checker, not an AI detector.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/digital-product-pricing-calculator">Digital Product Pricing Calculator</a></h3><p>Suggests a floor / anchor / premium price band from product type, audience and depth, then models monthly revenue at 0.5%, 1% and 2% conversion after platform fees.</p></article>
+<article class="card"><h3><a href="https://www.agentskillpacks.com/platform-fee-comparison">Platform Fee Comparison</a></h3><p>One sale price across 7 platforms and 13 fee variants, sorted by net payout.</p></article>
+</div>
+
+<h2 id="fees">What a $29 digital product nets on each platform</h2>
+<p class="answer">On a $29 download the seller keeps between $20.30 and $27.86 depending on the platform. Stripe leaves the most but makes you handle VAT and sales tax. Merchant-of-record platforms such as Gumroad and Lemon Squeezy cost more and file tax for you. Gumroad's Discover marketplace takes a flat 30%.</p>
+<div class="tablewrap"><table><tr><th>Platform</th><th>You keep on $29</th><th>Lost to fees</th></tr>
+<tr><td>Stripe</td><td>$27.86</td><td>$1.14 (4%)</td></tr>
+<tr><td>Lemon Squeezy</td><td>$27.05</td><td>$1.95 (7%)</td></tr>
+<tr><td>Payhip (free plan)</td><td>$26.41</td><td>$2.59 (9%)</td></tr>
+<tr><td>Etsy</td><td>$25.79</td><td>$3.21 (11%)</td></tr>
+<tr><td>Gumroad (direct)</td><td>$24.46</td><td>$4.54 (16%)</td></tr>
+<tr><td>Gumroad (Discover)</td><td>$20.30</td><td>$8.70 (30%)</td></tr>
+</table></div><div class="tablewrap" style="margin-top:18px"><table><tr><th>Platform</th><th>Base fee</th><th>Extra</th><th>Notes</th></tr>
+<tr><td><a href="https://www.agentskillpacks.com/gumroad-fee-calculator">Gumroad (direct sale)</a></td><td>10% + $0.50</td><td>+ 2.9% + $0.30 card processing</td><td>Merchant of record; Discover marketplace sales pay a flat 30%</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/stripe-fee-calculator">Stripe</a></td><td>2.9% + $0.30</td><td>+1.5% international cards, +1% currency conversion</td><td>Not a merchant of record: you handle VAT/sales tax</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/paypal-fee-calculator">PayPal</a></td><td>3.49% + $0.49</td><td>+1.5% cross-border</td><td>Micropayments rate 4.99% + $0.09 wins under ~$26</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/lemon-squeezy-fee-calculator">Lemon Squeezy</a></td><td>5% + $0.50</td><td>All-inclusive</td><td>Merchant of record; the ~2 point premium over Stripe buys VAT compliance</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/payhip-fee-calculator">Payhip</a></td><td>5% / 2% / 0% by plan</td><td>+ payment processing</td><td>Plus pays for itself at $967/month, Pro at $3,500/month over Plus</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/etsy-fee-calculator">Etsy (digital downloads)</a></td><td>$0.20 listing + 6.5% transaction</td><td>+ 3% + $0.25 processing</td><td>Offsite Ads add 12-15%; a $3.99 printable loses ~21% to fees</td></tr>
+<tr><td><a href="https://www.agentskillpacks.com/ko-fi-fee-calculator">Ko-fi</a></td><td>5% shop fee (free tier)</td><td>0% on donations</td><td>Ko-fi Gold is $12/month for new members, breaks even at $240/month in shop sales</td></tr>
+</table></div><p class="tag">Figures from the calculator pages on agentskillpacks.com (verified September 2026). Run <a href="https://www.agentskillpacks.com/platform-fee-comparison">the platform fee comparison</a> for current numbers.</p>
+
+<h2 id="books">Books by İsmail Günaydın</h2>
+<p class="answer">The founder has published 17 Kindle books, including the five-part Solo Operator Series on running a one-person business with AI. Each series book has a free printable workbook on agentskillpacks.com.</p>
+<div class="grid">
+<article class="card"><span class="price">#1</span><h3><a href="https://a.co/d/02IgWyKZ">The Leverage Stack</a></h3><p class="tag">How One Person Runs What Used to Take a Team</p><p>The Leverage Stack is a short, practical book for the solo operator who has become the bottleneck in their own business. It builds eight layers that catch the work that does not need your judgment, so only the decisions that genuinely need you reach you. Every chapter ends with a one-page tool you can use that day.</p><p><a href="https://www.agentskillpacks.com/books/the-leverage-stack">Book page</a> · <a href="https://a.co/d/02IgWyKZ">Amazon Kindle</a></p></article>
+<article class="card"><span class="price">#2</span><h3><a href="https://a.co/d/0aNkvqMm">Found by AI</a></h3><p class="tag">How Small Businesses Get Recommended by ChatGPT, Claude, Perplexity, and Google AI</p><p>Found by AI is a short, practical book for the small business owner who wants to be the name an AI recommends. It walks through the five questions ChatGPT, Claude, Perplexity, and Google AI quietly ask before they name you, can I find you, tell what you are, trust you, quote you, and reach you when asked. Each chapter ends with a one-page tool.</p><p><a href="https://www.agentskillpacks.com/books/found-by-ai">Book page</a> · <a href="https://a.co/d/0aNkvqMm">Amazon Kindle</a></p></article>
+<article class="card"><span class="price">#3</span><h3><a href="https://a.co/d/0ewBC87Q">The One-Person Million</a></h3><p class="tag">Build a Real Business With AI Doing the Work</p><p>The One-Person Million is a short, practical book for the solo operator who is done trading time for money. It builds the structure behind large solo revenue one layer at a time, the offer, the price, the product, the AI-run delivery engine, and the stack of offers that sell each other. It is honest: most never reach a million, and it promises nothing.</p><p><a href="https://www.agentskillpacks.com/books/the-one-person-million">Book page</a> · <a href="https://a.co/d/0ewBC87Q">Amazon Kindle</a></p></article>
+<article class="card"><span class="price">#4</span><h3><a href="https://a.co/d/0bqkXBfD">The Unfair Solopreneur</a></h3><p class="tag">Compete With Companies 100x Your Size Using AI</p><p>The Unfair Solopreneur is a short, practical book about the advantages that get sharper, not weaker, when you stay small and add AI. It walks through five edges a big company structurally cannot copy, speed, trust, focus, intimacy, and the firepower of running a whole department’s output solo. Each chapter ends with a one-page tool, and it promises no win, only the edges.</p><p><a href="https://www.agentskillpacks.com/books/the-unfair-solopreneur">Book page</a> · <a href="https://a.co/d/0bqkXBfD">Amazon Kindle</a></p></article>
+<article class="card"><span class="price">#5</span><h3><a href="https://a.co/d/01VnMx9f">AI Won’t Run Your Business. You Will.</a></h3><p class="tag">Judgment and Doubt in the AI Age</p><p>AI Won’t Run Your Business is a short, practical book about the last human jobs in the AI age, the decisions, doubt, and judgment you must not hand to a machine, no matter how good it gets. AI does the what and the how; only you hold the why. Each chapter ends with a one-page tool.</p><p><a href="https://www.agentskillpacks.com/books/ai-wont-run-your-business">Book page</a> · <a href="https://a.co/d/01VnMx9f">Amazon Kindle</a></p></article>
+</div><h3 style="margin-top:24px">More Kindle books</h3><ul class="cols">
+<li><a href="https://a.co/d/0ejzri2t">From Zero to Sustainable Startup</a>: Building a business that survives its first year</li>
+<li><a href="https://a.co/d/01TpQiVn">Businesses Are Positive-Sum Games</a>: Scaling through coopetition instead of war</li>
+<li><a href="https://a.co/d/01yslc6y">Startup Spells: Loopholes &amp; Leverage</a>: Growth tactics for founders without budgets</li>
+<li><a href="https://a.co/d/08v5oO0O">The Startup Exploit</a>: Traction and speed for early-stage products</li>
+<li><a href="https://a.co/d/06Ut7UEz">The Million Dollar Launch Manual</a>: Launch mechanics, step by step</li>
+<li><a href="https://a.co/d/0d459Dzm">SEO Content, Rebuilt</a>: Data-driven SEO content in the AI era</li>
+<li><a href="https://a.co/d/0aDjd1UD">The Bottom-of-Funnel SEO + LLM Cost Hacker&#x27;s Guide</a>: Enterprise SEO meets AI cost optimization</li>
+<li><a href="https://a.co/d/02SMC5NQ">Reverse-Engineered Newsletters: The $10K/Month Blueprint</a>: Newsletter business models, taken apart</li>
+<li><a href="https://a.co/d/08zjZxvS">Wealth Rewired: Escape the System. Build Real Freedom</a>: Rethinking money as a freedom budget</li>
+<li><a href="https://a.co/d/0006aBga">No Borders, No Boss: How to Design a Life of Freedom</a>: Remote work and location independence</li>
+<li><a href="https://a.co/d/03JjoaHy">Break Then Build</a>: Rebuilding after a failed project or career reset</li>
+<li><a href="https://a.co/d/0gser3n7">Don&#x27;t Click That!</a>: Recognizing online scams before they cost you</li>
+</ul><p><a href="https://www.agentskillpacks.com/books">All books on agentskillpacks.com</a></p>
+
+<h2 id="blog">From the blog</h2>
+<p class="answer">The ToolGenX blog has 21 first-person posts by the founder on selling digital products, platform fees, GEO and AI search visibility, and Claude Code workflows. Each post ends with a short FAQ.</p>
+<div class="grid">
+<article class="card"><p class="tag mono">2026-09-19</p><h3><a href="https://www.agentskillpacks.com/blog/does-llms-txt-actually-work">Does llms.txt actually work? What the server logs say in 2026</a></h3><p>Google says no AI system uses llms.txt. A 137,210-domain log study found 97% of the files got zero requests. Who does read them, and whether to ship one.</p></article>
+<article class="card"><p class="tag mono">2026-09-19</p><h3><a href="https://www.agentskillpacks.com/blog/gumroad-vs-payhip-vs-etsy-vs-ko-fi-vs-lemon-squeezy">Gumroad vs Payhip vs Etsy vs Ko-fi vs Lemon Squeezy: which is better for digital downloads?</a></h3><p>Net payout on a $9, $29 and $119 digital download across five platforms, what each fee includes, who handles tax, and which one fits which seller.</p></article>
+<article class="card"><p class="tag mono">2026-06-10</p><h3><a href="https://www.agentskillpacks.com/blog/ai-crawler-access-5-minute-audit">Is your site visible to AI crawlers? The 5-minute audit</a></h3><p>A copy-pasted 2023 robots.txt block can erase you from ChatGPT and Perplexity. The 5-minute audit, the bots that matter, and the allow-search strategy.</p></article>
+<article class="card"><p class="tag mono">2026-06-10</p><h3><a href="https://www.agentskillpacks.com/blog/gumroad-fees-2026-actually-itemized">Gumroad fees in 2026: what sellers actually pay per sale</a></h3><p>Gumroad says 10%. Your payout says otherwise. Every fee on a direct and a Discover sale, the price floor where you lose money, and when leaving pays.</p></article>
+<article class="card"><p class="tag mono">2026-06-10</p><h3><a href="https://www.agentskillpacks.com/blog/how-to-price-a-digital-product-calculator-math">How to price a digital product (with the calculator math shown)</a></h3><p>The three-dial pricing model behind our free calculator: market bands, the 1.6x multiplier, ladder snapping, and how it priced 19 products from $9 to $119.</p></article>
+<article class="card"><p class="tag mono">2026-06-10</p><h3><a href="https://www.agentskillpacks.com/blog/seven-ai-writing-tells-editors-catch">The 7 AI writing tells editors catch first</a></h3><p>Em-dash overload, &quot;delve into&quot;, autopilot triads, same-length sentences. The tells editors catch first, why detectors miss the point, and our own checklist.</p></article>
+<article class="card"><p class="tag mono">2026-06-03</p><h3><a href="https://www.agentskillpacks.com/blog/best-claude-code-skills-for-indie-developers">Best Claude Code skills for indie developers (with real examples)</a></h3><p>The Claude Code skills that move real work: TDD, planning, code review, multi-agent. Six skill packs solo developers use and the gap each one closes.</p></article>
+<article class="card"><p class="tag mono">2026-05-28</p><h3><a href="https://www.agentskillpacks.com/blog/a-year-on-gumroad-19-products-one-sale">Is Gumroad worth it? A year, 19 products, and one verified sale</a></h3><p>Twelve months selling digital products through a Gumroad redirect. Real numbers, what the redirect cost in trust, and the moment I stopped.</p></article>
+<article class="card"><p class="tag mono">2026-05-21</p><h3><a href="https://www.agentskillpacks.com/blog/rewriting-19-product-descriptions-in-2-days-with-humanizer">How I rewrote 19 product descriptions in 2 days with humanizer-pro</a></h3><p>The workflow that takes AI-drafted product copy through a humanizer pass so it reads like one person wrote it and gives AI engines something to quote.</p></article>
+<article class="card"><p class="tag mono">2026-05-14</p><h3><a href="https://www.agentskillpacks.com/blog/eu-crd-article-16m-consent-flow-in-nextjs">Building the EU CRD Article 16(m) consent flow in Next.js</a></h3><p>The EU CRD Article 16(m) waiver for digital goods in Next.js. The dual-checkbox UI, the consent_logs schema, and the Withdrawal Button required since June 2026.</p></article>
+<article class="card"><p class="tag mono">2026-05-12</p><h3><a href="https://www.agentskillpacks.com/blog/shipping-a-digital-product-as-a-solo-founder">Shipping a digital product as a solo founder</a></h3><p>A playbook from one founder running a 19-product shop. Distribution, payment infrastructure, refund law, content gravity, and trust signals that move money.</p></article>
+<article class="card"><p class="tag mono">2026-05-07</p><h3><a href="https://www.agentskillpacks.com/blog/toolgenx-robots-and-llms-txt-explained">ToolGenX&#x27;s robots.txt and llms.txt explained, line by line</a></h3><p>The robots.txt and llms.txt files on ToolGenX, line by line. What each rule does, why AI crawlers are allowed, and how llms.txt actually gets used.</p></article>
+<article class="card"><p class="tag mono">2026-04-30</p><h3><a href="https://www.agentskillpacks.com/blog/geo-citability-scoring-sheet">My GEO citability scoring sheet: how I grade every page before publishing</a></h3><p>A 100-point checklist for how likely AI search engines are to cite a page. Five categories, the scoring rubric, and the score I will not publish below.</p></article>
+<article class="card"><p class="tag mono">2026-04-28</p><h3><a href="https://www.agentskillpacks.com/blog/stripe-vs-iyzico-vs-gumroad-for-digital-products">Is Stripe available in Turkey? Stripe vs Iyzico vs Gumroad for digital products</a></h3><p>Stripe does not onboard Turkey-based sellers. Fees, setup time, and tax handling for Stripe, Iyzico, and Gumroad, and which one a digital shop should use.</p></article>
+<article class="card"><p class="tag mono">2026-04-23</p><h3><a href="https://www.agentskillpacks.com/blog/pricing-a-digital-product-with-van-westendorp">Pricing a digital product with Van Westendorp (with real numbers)</a></h3><p>The Van Westendorp Price Sensitivity Meter for solo founders. The four questions, the math, real survey results from a $29 product, and the price I shipped.</p></article>
+<article class="card"><p class="tag mono">2026-04-16</p><h3><a href="https://www.agentskillpacks.com/blog/6-phase-outreach-workflow-for-a-solo-agency">The 6-phase outreach workflow that fills a solo agency pipeline</a></h3><p>The cold-outreach system I used to run ModernWebSEO solo. Six phases, real response rates, the email templates that get replies, and research time per lead.</p></article>
+<article class="card"><p class="tag mono">2026-04-14</p><h3><a href="https://www.agentskillpacks.com/blog/geo-seo-for-small-shops-what-moves-the-needle">GEO + SEO for small shops: what actually moves the needle</a></h3><p>The five SEO + GEO changes that move real traffic for a small shop. No tooling, no agency, no subscription. Just the structural choices that get you cited.</p></article>
+<article class="card"><p class="tag mono">2026-04-09</p><h3><a href="https://www.agentskillpacks.com/blog/writing-for-google-ai-overviews-7-structural-moves">Writing for Google AI Overviews: the 7 structural moves that move citations</a></h3><p>Seven writing and markup moves that land content in Google AI Overviews, with examples from pages that get cited and pages that do not.</p></article>
+<article class="card"><p class="tag mono">2026-04-02</p><h3><a href="https://www.agentskillpacks.com/blog/the-cro-experiment-that-moved-04-to-19-percent">The CRO experiment that moved my landing page from 0.4% to 1.9%</a></h3><p>One 30-day landing page rewrite took conversion from 0.4% to 1.9%. The six changes, the A/B split, the numbers, and the one change behind 60% of the lift.</p></article>
+<article class="card"><p class="tag mono">2026-03-26</p><h3><a href="https://www.agentskillpacks.com/blog/one-podcast-to-12-content-pieces-the-actual-workflow">One podcast episode to 12 content pieces: the actual repurposing workflow</a></h3><p>Turn one 45-minute podcast episode into 12 pieces across six platforms over 14 days, with a 4-hour production budget after recording.</p></article>
+<article class="card"><p class="tag mono">2026-03-22</p><h3><a href="https://www.agentskillpacks.com/blog/why-i-rewrote-my-19-product-site-in-two-weeks">Why I rewrote my 19-product site in two weeks (and what I would do differently)</a></h3><p>An honest postmortem of a site rebuild, why the old version failed despite &quot;looking fine&quot;, what the rewrite changed, and the four decisions I made too late.</p></article>
+</div>
+
+<h2 id="docs">Documents and mirrors</h2>
+<ul class="cols">
+<li><a href="https://docs.google.com/document/d/1g_QI6cK67g1To7TPp6i8LN-BXB6HUa30/edit?usp=sharing">ToolGenX Company Profile &amp; Fact Sheet</a> (Google Drive)</li>
+<li><a href="https://docs.google.com/document/d/1175qKtw_5dm43GHkgU0eUzkQEOqicTmd/edit?usp=sharing">Claude Code Skill Packs: Buyer&#x27;s Guide 2026</a> (Google Drive)</li>
+<li><a href="https://docs.google.com/document/d/1ehYYwj0bIvPMTg5omtt2v5uV3W3orNjR/edit?usp=sharing">Free Seller Tools &amp; Platform Fee Reference 2026</a> (Google Drive)</li>
+<li><a href="https://docs.google.com/document/d/1LQMlwjP0DLN21WFDV2ZFpX91sjT2sXmn/edit?usp=sharing">ToolGenX Resource Directory</a> (Google Drive)</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1F3jup3Lt2Pik85MOC1dqMWeJFnv3anZ4/edit?usp=sharing">ToolGenX Catalog 2026 (spreadsheet)</a> (Google Drive)</li>
+<li><a href="https://docs.google.com/presentation/d/14vf8EyC-u5q-ewjNLOJMdoR0_lD07Iws/edit?usp=sharing">ToolGenX Agent Skill Packs 2026 (slides)</a> (Google Drive)</li>
+<li><a href="https://sites.google.com/view/toolgenx-pages/ana-sayfa">ToolGenX on Google Sites</a></li><li><a href="https://www.agentskillpacks.com/llms.txt">llms.txt</a> and <a href="https://www.agentskillpacks.com/llms-full.txt">llms-full.txt</a> (AI-readable site map)</li></ul>
+<h2 id="links">Official links</h2><div class="grid"><article class="card"><h3>agentskillpacks.com</h3><ul>
+<li><a href="https://www.agentskillpacks.com">Home</a></li><li><a href="https://www.agentskillpacks.com/products">All products</a></li><li><a href="https://www.agentskillpacks.com/tools">Free tools</a></li><li><a href="https://www.agentskillpacks.com/books">Books</a></li><li><a href="https://www.agentskillpacks.com/blog">Blog</a></li><li><a href="https://www.agentskillpacks.com/about">About</a></li><li><a href="https://www.agentskillpacks.com/contact">Contact</a></li><li><a href="https://www.agentskillpacks.com/llms.txt">llms.txt</a></li><li><a href="https://www.agentskillpacks.com/vs/gumroad">ToolGenX vs Gumroad</a></li>
+</ul></article><article class="card"><h3>ToolGenX profiles</h3><ul>
+<li><a href="https://www.producthunt.com/products/toolgenx">Product Hunt</a></li><li><a href="https://www.crunchbase.com/organization/toolgenx">Crunchbase</a></li><li><a href="https://www.linkedin.com/company/toolgenx">LinkedIn</a></li><li><a href="https://www.youtube.com/@ToolGenX">YouTube</a></li><li><a href="https://www.facebook.com/toolgenx/">Facebook</a></li><li><a href="https://maps.app.goo.gl/wfzDcN2xR5jHLm4KA">Google Maps</a></li><li><a href="https://ismailgunaydn.github.io/ToolgenX.github.io/">GitHub Pages</a></li><li><a href="https://www.tumblr.com/toolgenx">Tumblr</a></li><li><a href="https://modernwebseo.gumroad.com">Gumroad store</a></li>
+</ul></article><article class="card"><h3>Founder: İsmail Günaydın</h3><ul>
+<li><a href="https://www.ismailgunaydin.com/">Website</a></li><li><a href="https://www.linkedin.com/in/ismailgunaydin">LinkedIn</a></li><li><a href="https://x.com/ismailgunaydinn">X (Twitter)</a></li><li><a href="https://www.youtube.com/@ismailgunaydinn">YouTube</a></li><li><a href="https://www.instagram.com/ismailgunaydin_">Instagram</a></li><li><a href="https://github.com/ismailGunaydn">GitHub</a></li><li><a href="https://medium.com/@ismailgunaydin">Medium</a></li><li><a href="https://dev.to/ismailgunaydin">DEV Community</a></li><li><a href="https://substack.com/@ismailgunaydin">Substack</a></li><li><a href="https://open.spotify.com/show/62QuNrUzWJtmyMi7Pgdl3l">Spotify podcast</a></li><li><a href="https://www.amazon.com/author/ismailgunaydin">Amazon author page</a></li><li><a href="https://www.crunchbase.com/person/ismail-gunaydin">Crunchbase</a></li><li><a href="https://www.producthunt.com/@ismailgunaydin">Product Hunt</a></li><li><a href="https://www.blogger.com/profile/17386816838519613675">Blogger</a></li>
+</ul></article><article class="card"><h3>Other projects by the founder</h3><ul>
+<li><a href="https://www.modernwebseo.com">modernwebseo.com</a>: web design and SEO agency (parent brand)</li><li><a href="https://www.ismailgunaydin.com">ismailgunaydin.com</a>: founder&#x27;s personal site</li><li><a href="https://www.healthcalcpro.com">healthcalcpro.com</a>: health calculators</li><li><a href="https://www.textwordcount.com">textwordcount.com</a>: text analysis tools</li><li><a href="https://www.wheelienames.com">wheelienames.com</a>: name picker wheel</li><li><a href="https://www.hepsihesapla.com">hepsihesapla.com</a>: calculators in Turkish</li>
+</ul></article></div>
+<h2 id="faq">FAQ</h2>
+<details><summary>What is ToolGenX?</summary><p>ToolGenX is an independent shop that sells Claude Code skill packs, templates and toolkits for developers, founders and marketers at agentskillpacks.com. Every product is a one-time USD payment with an instant download.</p></details>
+<details><summary>What is a Claude Code skill?</summary><p>A skill is a folder with a SKILL.md file that teaches an AI coding agent one repeatable job. Claude reads the short description, loads the full instructions only when a task matches, and follows them. Skills live in ~/.claude/skills or in a project&#x27;s .claude/skills folder.</p></details>
+<details><summary>Do the packs work outside Claude Code?</summary><p>Skills follow the open Agent Skills format published in December 2025, which Cursor, Codex, Gemini CLI and GitHub Copilot can read. Templates, checklists and scripts are plain Markdown or Python and work anywhere.</p></details>
+<details><summary>How do I install a pack?</summary><p>Unzip the download, copy the skill folders into ~/.claude/skills/ (all projects) or &lt;repo&gt;/.claude/skills/ (one project), restart Claude Code and type / to see the new skills.</p></details>
+<details><summary>Why did toolgenx.com become agentskillpacks.com?</summary><p>Most of the catalog is Agent Skills packs, and the new domain says that plainly. The move happened on 19 September 2026. The ToolGenX brand stayed and toolgenx.com redirects to the new address.</p></details>
+<details><summary>Is there a subscription?</summary><p>No. Each product is a single payment. Checkout runs on Gumroad; books are sold on Amazon Kindle.</p></details>
+<details><summary>Are the calculators free?</summary><p>Yes. The fee calculators, AI crawler checker, llms.txt generator and AI writing checker need no signup and no email.</p></details>
+
+<h2 id="company">Company</h2>
+<div class="tablewrap"><table>
+<tr><th>Brand</th><td>ToolGenX</td></tr>
+<tr><th>Website</th><td><a href="https://www.agentskillpacks.com">www.agentskillpacks.com</a> (formerly toolgenx.com, moved 19 September 2026)</td></tr>
+<tr><th>Founder</th><td><a href="https://www.ismailgunaydin.com/">İsmail Günaydın</a>, software engineer and SEO/GEO/AEO strategist, 15+ years building digital products</td></tr>
+<tr><th>Registered business</th><td>Melike Günaydın, sole proprietorship, registered 1 June 2026 (Alemdağ Tax Office, tax ID 1470465320)</td></tr>
+<tr><th>Address</th><td>Cemil Meriç Mah. Çığır Sk. No: 27-29, İç Kapı No: 7, Ümraniye, İstanbul, Türkiye</td></tr>
+<tr><th>Contact</th><td>support@toolgenx.com · +90 506 545 88 35 · <a href="https://www.agentskillpacks.com/contact">contact page</a></td></tr>
+<tr><th>Checkout</th><td><a href="https://modernwebseo.gumroad.com">Gumroad</a> for products, Amazon Kindle for books</td></tr>
+</table></div>
+</main>
+<footer><div class="wrap">
+<p class="mono"><b>[toolgenx]</b> · <a href="https://www.agentskillpacks.com">agentskillpacks.com</a> · <a href="https://github.com/ismailGunaydn/ToolgenX.github.io">Source on GitHub</a> · Updated 2026-09-19</p>
+<p>This page is an index of public ToolGenX information. Prices and product details are kept current on <a href="https://www.agentskillpacks.com">agentskillpacks.com</a>, which is the source of truth.</p>
+</div></footer>
 </body>
 </html>
